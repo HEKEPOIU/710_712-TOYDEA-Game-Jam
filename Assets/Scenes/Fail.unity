@@ -418,7 +418,7 @@ GameObject:
   - component: {fileID: 170534825}
   - component: {fileID: 170534824}
   m_Layer: 0
-  m_Name: Global Volume
+  m_Name: PostProcess
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -454,7 +454,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &307404497 stripped
 GameObject:
@@ -654,7 +654,7 @@ PrefabInstance:
     - target: {fileID: 623060026388268716, guid: 88701f2827e414b4c868d8642b6990cd,
         type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 623060026388268716, guid: 88701f2827e414b4c868d8642b6990cd,
         type: 3}
@@ -6077,6 +6077,12 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 470709998}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &472644482 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 623060026388268716, guid: 88701f2827e414b4c868d8642b6990cd,
+    type: 3}
+  m_PrefabInstance: {fileID: 470709998}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &480679053
 GameObject:
   m_ObjectHideFlags: 0
@@ -6215,7 +6221,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 23.352, y: 124.347, z: 48.333}
 --- !u!1 &484867554
 GameObject:
@@ -7735,7 +7741,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 472644482}
     m_Modifications:
     - target: {fileID: 7737090368177153216, guid: 025f48de36c6d2646a3b303a9a3f7c0a,
         type: 3}
@@ -7745,42 +7751,42 @@ PrefabInstance:
     - target: {fileID: 7737090368177153245, guid: 025f48de36c6d2646a3b303a9a3f7c0a,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 7737090368177153245, guid: 025f48de36c6d2646a3b303a9a3f7c0a,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -740.6
+      value: -796.5974
       objectReference: {fileID: 0}
     - target: {fileID: 7737090368177153245, guid: 025f48de36c6d2646a3b303a9a3f7c0a,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.8
+      value: 0.12737107
       objectReference: {fileID: 0}
     - target: {fileID: 7737090368177153245, guid: 025f48de36c6d2646a3b303a9a3f7c0a,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -360.8
+      value: -142.77983
       objectReference: {fileID: 0}
     - target: {fileID: 7737090368177153245, guid: 025f48de36c6d2646a3b303a9a3f7c0a,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.99144495
       objectReference: {fileID: 0}
     - target: {fileID: 7737090368177153245, guid: 025f48de36c6d2646a3b303a9a3f7c0a,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 7737090368177153245, guid: 025f48de36c6d2646a3b303a9a3f7c0a,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: 0.13052596
       objectReference: {fileID: 0}
     - target: {fileID: 7737090368177153245, guid: 025f48de36c6d2646a3b303a9a3f7c0a,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 7737090368177153245, guid: 025f48de36c6d2646a3b303a9a3f7c0a,
         type: 3}
@@ -12027,7 +12033,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1371432415
 GameObject:
@@ -12683,7 +12689,7 @@ Transform:
   - {fileID: 1733861965}
   - {fileID: 1033345232}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1729077241
 GameObject:
